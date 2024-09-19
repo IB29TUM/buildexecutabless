@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [current_lon, current_lat],   
+          [nearest_lon, nearest_lat]    
+        ]
+      },
+      "properties": {
+        "name": "Connection Line",
+        "color": "blue"                
+      }
+    }
+  ]
+}
+
+where should be this ? 
